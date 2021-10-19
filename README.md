@@ -47,7 +47,7 @@ However, upon a lot-specific analysis (Fig. 3) we can Lot3 suspension coils have
 ###  Fig. 4  T-test on all Manufacturing Lots compared to population mean of 1500 PSI
 ![image](https://user-images.githubusercontent.com/86337475/137989113-d8cac743-e57c-4a6d-92e7-7f9b505e5471.png)
 
-As you can see in Fig. 4,  with a p-value of 0.06, which is higher than the common significance level of 0.05, there is not enough evidence to support rejecting the null hypothesis. That is to say, we accept the null hypothesis that the mean of all three manufacturing lots is statistically similar to the presumed population mean of 1500.
+As you can see in Fig. 4,  with a p-value of 0.06, which is higher than the common significance level of 0.05, there is not strong enough evidence to reject the null hypothesis. That is to say, we accept the null hypothesis that the mean of all three manufacturing lots is statistically similar to the presumed population mean of 1500.
 
 ### Fig. 5  Lot-specific T-tests
 ![image](https://user-images.githubusercontent.com/86337475/137992370-86fdac12-469e-479c-a621-22cfcaa56acb.png)
