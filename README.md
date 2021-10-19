@@ -15,6 +15,21 @@ The purpose of this analysis is to offer insights into the MechaCar's production
 #### Ground Clearance, p=5.21e08*** 
 #### All-wheel Drive (AWD)
 
+
 As denoted by (***) two p-values from variables Vehicle Length, and Ground Clearance, were massively lower than the statistically significant cut-off of p < 0.05, and therefore concluded to provide strong non-random variance with MPG. 
 
 In addition to the variables provided non-random variance to MPG, MechaCar production would also like to know whether the slope of the linear model is at or near zero, as this would suggest the independent variables do not have an effect on the dependent variable (MPG). As the slope of a linear regression model approaches zero, the accuracy of the model approaches random, and the p-value approaches 1. The p-value for this model is 5.35e-11, which is very small, indicating a positive, not near-zero slope. Additionally, the team wants to know how accurately this model would predict the MPG of other MechaCar prototypes. Given the R-squared for this model is 0.7149, which says that out of 100 predictions, our model would correctly predict the MPG 71 times. Therefore, we can say this is an effective model.
+
+
+## Deliverable 2
+
+## Summary Statistics on Suspension Coils
+
+### MechaCar production team has asked us to investigate their data (Suspension_coil.csv) for this specific purpose:
+
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+### Total Statistical Summary (total_summary) of all Manufacturing Lots
+![image](https://user-images.githubusercontent.com/86337475/137983816-ebfdf421-4657-4686-bcf1-93962aa4cd66.png)
+
+
