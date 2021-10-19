@@ -13,7 +13,7 @@ The purpose of this analysis is to offer insights into the MechaCar's production
 #### Vehicle Weight
 #### Spoiler Angle
 #### Ground Clearance, p=5.21e08*** 
-### All-wheel Drive (AWD)
+#### All-wheel Drive (AWD)
 
 As denoted by (***) two p-values from variables Vehicle Length, and Ground Clearance, were massively lower than the statistically significant cut-off of p < 0.05, and therefore concluded to provide strong non-random variance with MPG. 
 
