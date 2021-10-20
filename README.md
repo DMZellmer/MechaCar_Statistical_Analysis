@@ -64,12 +64,12 @@ As you can see in Fig. 4,  with a p-value of 0.06, which is higher than the comm
 Identify comparable cars from multiple competitors. Use these metrics to form and test the null and alternative hypotheses:
 
 ### Metrics
-*City Fuel Efficiency
-*Highway Fuel Efficiency
-*Horsepower
-*Cost of Maintenance (yearly)
-*Safety Rating
-*Vehicle Cost (Dependent Variable)
+City Fuel Efficiency
+Highway Fuel Efficiency
+Horsepower
+Cost of Maintenance (yearly)
+Safety Rating
+Vehicle Cost (Dependent Variable)
 
 After acquiring data on these factors over a prescribed period of time, reject or accept the null hypothesis, which could the MechaCar is priced correctly based on it's performance relative to the competition on the above metrics.
 The alternative hypothesis to this would be MechaCar is not priced correctlly based on it's performance relative to competitors.
