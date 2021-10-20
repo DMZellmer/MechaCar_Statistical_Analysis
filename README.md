@@ -52,7 +52,7 @@ As you can see in Fig. 4,  with a p-value of 0.06, which is higher than the comm
 ### Fig. 5  Lot-specific T-tests
 ![image](https://user-images.githubusercontent.com/86337475/137992370-86fdac12-469e-479c-a621-22cfcaa56acb.png)
  
- In Fig. 5 we T-tests for Lots 1-3 compared to the presumed population mean of 1500 PSI. 
+ In Fig. 5 we ran T-tests for Lots 1-3 compared to the presumed population mean of 1500 PSI. 
  
  1. Lot 1 literally has a sample mean of 1500 PSI, and with a p-value = 1, we must accept the null hypothesis that there is no statistical difference between the mean of Lot1 and the presumed population mean.
  2. Lot 2 has a sample mean of 1500.2 PSI, and slightly more variance than Lot1, with Lot2 p-value = 0.6072.  This is over 10 times higher than the common significance level (p=0.05), therefore the null hypothesis cannot be rejected, and we state that Lot2 is statistically similar to the population mean.
