@@ -52,11 +52,30 @@ As you can see in Fig. 4,  with a p-value of 0.06, which is higher than the comm
 ### Fig. 5  Lot-specific T-tests
 ![image](https://user-images.githubusercontent.com/86337475/137992370-86fdac12-469e-479c-a621-22cfcaa56acb.png)
  
- In Fig. 5 we T-tests for Lots 1-3 compared to the presumed population mean of 1500 PSI. 
+ In Fig. 5 we ran T-tests for Lots 1-3 compared to the presumed population mean of 1500 PSI. 
  
  1. Lot 1 literally has a sample mean of 1500 PSI, and with a p-value = 1, we must accept the null hypothesis that there is no statistical difference between the mean of Lot1 and the presumed population mean.
  2. Lot 2 has a sample mean of 1500.2 PSI, and slightly more variance than Lot1, with Lot2 p-value = 0.6072.  This is over 10 times higher than the common significance level (p=0.05), therefore the null hypothesis cannot be rejected, and we state that Lot2 is statistically similar to the population mean.
  3. Lot 3 not surprisingly is a different scenario. Here the sample mean is 1496.14 and the p-value is 0.04, which is lower than the common significance level of 0.05. All indicating to reject the null hypothesis that this sample mean and the presumed population mean are not statistically different.
 
 ## DELIVERABLE 4
- 
+
+## Study Design: MechaCar vs Competition
+Identify comparable cars from multiple competitors. Use these metrics to form and test the null and alternative hypotheses:
+
+### Metrics
+* City Fuel Efficiency
+* Highway Fuel Efficiency
+* Horsepower
+* Cost of Maintenance (yearly)
+* Safety Rating
+* Vehicle Cost (Dependent Variable)
+
+After acquiring data on these factors over a prescribed period of time, reject or accept the null hypothesis, which could the MechaCar is priced correctly based on it's performance relative to the competition on the above metrics.
+The alternative hypothesis to this would be MechaCar is not priced correctlly based on it's performance relative to competitors.
+
+### Statistical Tests
+In this case a multiple linear regression would be useful to determine which factors have correlation/variance with the vehicle cost (dependent variable), and which combination of metrics have the greatest impact on price, which is a important 'selling point' for consumers and could better determine the perceived value of the MechaCar.
+
+
+
